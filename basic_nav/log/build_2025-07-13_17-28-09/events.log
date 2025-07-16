@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000475] (-) JobUnselected: {'identifier': 'mobile_robot'}
+[0.002679] (-) EventReactorShutdown: {}

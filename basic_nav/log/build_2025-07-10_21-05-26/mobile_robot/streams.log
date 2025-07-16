@@ -1,0 +1,44 @@
+[0.884s] Invoking command in '/home/baltazar/proyectos_ros/basic_control_gz/src/mobile_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/build install --record /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/install.log --single-version-externally-managed install_data
+[1.156s] running egg_info
+[1.156s] creating ../../build/mobile_robot/mobile_robot.egg-info
+[1.177s] writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO
+[1.177s] writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt
+[1.177s] writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt
+[1.178s] writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt
+[1.178s] writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt
+[1.178s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[1.221s] reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[1.222s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[1.222s] running build
+[1.222s] running build_py
+[1.222s] creating /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/build
+[1.222s] creating /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/build/lib
+[1.222s] creating /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/build/lib/mobile_robot
+[1.222s] copying mobile_robot/test.py -> /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/build/lib/mobile_robot
+[1.223s] copying mobile_robot/__init__.py -> /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/build/lib/mobile_robot
+[1.223s] running install
+[1.228s] running install_lib
+[1.250s] creating /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot
+[1.250s] copying /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/build/lib/mobile_robot/test.py -> /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot
+[1.250s] copying /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/build/lib/mobile_robot/__init__.py -> /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot
+[1.250s] byte-compiling /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot/test.py to test.cpython-312.pyc
+[1.251s] byte-compiling /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot/__init__.py to __init__.cpython-312.pyc
+[1.251s] running install_data
+[1.251s] creating /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/ament_index
+[1.251s] creating /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/ament_index/resource_index
+[1.251s] creating /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/ament_index/resource_index/packages
+[1.251s] copying resource/mobile_robot -> /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/ament_index/resource_index/packages
+[1.252s] copying package.xml -> /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/mobile_robot
+[1.252s] creating /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/mobile_robot/launch
+[1.252s] copying launch/gazebo_model.launch.py -> /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/mobile_robot/launch
+[1.252s] creating /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/mobile_robot/model
+[1.252s] copying model/robot.xacro -> /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/mobile_robot/model
+[1.252s] copying model/robot.gazebo -> /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/mobile_robot/model
+[1.252s] creating /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/mobile_robot/parameters
+[1.252s] copying parameters/bridge_parameters.yaml -> /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/share/mobile_robot/parameters
+[1.252s] running install_egg_info
+[1.275s] Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot-0.0.0-py3.12.egg-info
+[1.276s] running install_scripts
+[1.414s] Installing publisher script to /home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/lib/mobile_robot
+[1.414s] writing list of installed files to '/home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/install.log'
+[1.441s] Invoked command in '/home/baltazar/proyectos_ros/basic_control_gz/src/mobile_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baltazar/proyectos_ros/basic_control_gz/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/build install --record /home/baltazar/proyectos_ros/basic_control_gz/build/mobile_robot/install.log --single-version-externally-managed install_data

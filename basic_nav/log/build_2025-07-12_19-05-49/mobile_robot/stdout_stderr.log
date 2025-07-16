@@ -1,0 +1,34 @@
+running develop
+Removing /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile-robot.egg-link (link to .)
+running egg_info
+writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt
+writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt
+writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt
+reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot
+copying /home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/build/lib/mobile_robot/test.py -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot
+copying /home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/build/lib/mobile_robot/test1.py -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot
+copying /home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/build/lib/mobile_robot/__init__.py -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot
+byte-compiling /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot/test.py to test.cpython-312.pyc
+byte-compiling /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot/test1.py to test1.cpython-312.pyc
+byte-compiling /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/mobile_robot -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/share/mobile_robot
+copying launch/gazebo_model.launch.py -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/share/mobile_robot/launch
+copying model/robot.xacro -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/share/mobile_robot/model
+copying model/robot.gazebo -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/share/mobile_robot/model
+copying parameters/bridge_parameters.yaml -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/share/mobile_robot/parameters
+copying worlds/tugbot_depot.sdf -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/share/mobile_robot/worlds
+running install_egg_info
+Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing publisher script to /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/mobile_robot
+writing list of installed files to '/home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/install.log'

@@ -1,0 +1,239 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="extended_yard">
+    <gravity>0 0 -9.81</gravity>
+
+    <!-- Luz direccional como reemplazo del sol -->
+    <light name="sun_light" type="directional">
+    <cast_shadows>true</cast_shadows>
+    <pose>0 0 0 0 0 0</pose>
+    <specular>0.2 0.2 0.2 1</specular>
+    <attenuation>
+        <range>100</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+    </attenuation>
+    <direction>0 0 -1</direction> <!-- Directo hacia abajo -->
+    </light>
+
+
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>
+      </link>
+    </model>
+
+    <!-- Obstáculo 1: Caja -->
+    <model name="box_obstacle_1">
+      <static>true</static>
+      <pose>3 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box><size>2 2 1</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>2 2 1</size></box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.3 0.3 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Obstáculo 2: Cilindro -->
+    <model name="cylinder_obstacle1">
+      <static>true</static>
+      <pose>-3 1 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <cylinder><radius>1</radius><length>2</length></cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder><radius>1</radius><length>2</length></cylinder>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.8 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+<!-- Caja de muros formando un recinto cerrado centrado en 10,10 -->
+
+    <!-- Muro superior -->
+    <model name="wall_top">
+    <static>true</static>
+    <pose>0 -5 1 0 0 0</pose>
+    <link name="link">
+        <collision name="collision">
+        <geometry>
+            <box><size>10 0.5 2</size></box>
+        </geometry>
+        </collision>
+        <visual name="visual">
+        <geometry>
+            <box><size>10 0.5 2</size></box>
+        </geometry>
+        <material><ambient>0.4 0.4 0.4 1</ambient></material>
+        </visual>
+    </link>
+    </model>
+
+    <!-- Muro inferior -->
+    <model name="wall_bottom">
+    <static>true</static>
+    <pose>0 5 1 0 0 0</pose>
+    <link name="link">
+        <collision name="collision">
+        <geometry>
+            <box><size>10 0.5 2</size></box>
+        </geometry>
+        </collision>
+        <visual name="visual">
+        <geometry>
+            <box><size>10 0.5 2</size></box>
+        </geometry>
+        <material><ambient>0.4 0.4 0.4 1</ambient></material>
+        </visual>
+    </link>
+    </model>
+
+    <!-- Muro izquierdo -->
+    <model name="wall_left">
+    <static>true</static>
+    <pose>-5 0 1 0 0 0</pose>
+    <link name="link">
+        <collision name="collision">
+        <geometry>
+            <box><size>0.5 10 2</size></box>
+        </geometry>
+        </collision>
+        <visual name="visual">
+        <geometry>
+            <box><size>0.5 10 2</size></box>
+        </geometry>
+        <material><ambient>0.4 0.4 0.4 1</ambient></material>
+        </visual>
+    </link>
+    </model>
+
+    <!-- Muro derecho -->
+    <model name="wall_right">
+    <static>true</static>
+    <pose>5 0 1 0 0 0</pose>
+    <link name="link">
+        <collision name="collision">
+        <geometry>
+            <box><size>0.5 10 2</size></box>
+        </geometry>
+        </collision>
+        <visual name="visual">
+        <geometry>
+            <box><size>0.5 10 2</size></box>
+        </geometry>
+        <material><ambient>0.4 0.4 0.4 1</ambient></material>
+        </visual>
+    </link>
+    </model>
+
+
+
+
+    <!-- Árbol decorativo (cilindro + esfera) -->
+    <model name="tree_1">
+      <static>true</static>
+      <pose>-2 -2 0 0 0 0</pose>
+      <link name="link">
+        <collision name="trunk">
+          <geometry>
+            <cylinder><radius>0.2</radius><length>2</length></cylinder>
+          </geometry>
+        </collision>
+        <visual name="trunk">
+          <geometry>
+            <cylinder><radius>0.2</radius><length>2</length></cylinder>
+          </geometry>
+          <material><ambient>0.4 0.2 0.1 1</ambient></material>
+        </visual>
+        <visual name="leaves">
+          <pose>0 0 1.5 0 0 0</pose>
+          <geometry>
+            <sphere><radius>1.0</radius></sphere>
+          </geometry>
+          <material><ambient>0.1 0.6 0.1 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Banco como obstáculo urbano -->
+    <model name="bench">
+      <static>true</static>
+      <pose>2.5 0 0.3 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box><size>2 0.5 0.6</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>2 0.5 0.6</size></box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.3 0.1 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

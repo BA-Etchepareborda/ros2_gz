@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.001365] (mobile_robot) JobQueued: {'identifier': 'mobile_robot', 'dependencies': OrderedDict()}
+[0.002068] (mobile_robot) JobStarted: {'identifier': 'mobile_robot'}
+[0.098736] (-) TimerEvent: {}
+[0.199641] (-) TimerEvent: {}
+[0.300150] (-) TimerEvent: {}
+[0.400658] (-) TimerEvent: {}
+[0.501253] (-) TimerEvent: {}
+[0.601913] (-) TimerEvent: {}
+[0.702551] (-) TimerEvent: {}
+[0.803211] (-) TimerEvent: {}
+[0.903714] (-) TimerEvent: {}
+[1.004955] (-) TimerEvent: {}
+[1.105415] (-) TimerEvent: {}
+[1.207938] (-) TimerEvent: {}
+[1.309195] (-) TimerEvent: {}
+[1.409674] (-) TimerEvent: {}
+[1.510476] (-) TimerEvent: {}
+[1.611123] (-) TimerEvent: {}
+[1.711646] (-) TimerEvent: {}
+[1.812155] (-) TimerEvent: {}
+[1.912780] (-) TimerEvent: {}
+[2.013496] (-) TimerEvent: {}
+[2.114228] (-) TimerEvent: {}
+[2.215111] (-) TimerEvent: {}
+[2.315955] (-) TimerEvent: {}
+[2.416529] (-) TimerEvent: {}
+[2.517225] (-) TimerEvent: {}
+[2.617702] (-) TimerEvent: {}
+[2.718236] (-) TimerEvent: {}
+[2.818891] (-) TimerEvent: {}
+[2.919395] (-) TimerEvent: {}
+[3.020087] (-) TimerEvent: {}
+[3.120601] (-) TimerEvent: {}
+[3.221172] (-) TimerEvent: {}
+[3.321708] (-) TimerEvent: {}
+[3.422415] (-) TimerEvent: {}
+[3.524672] (-) TimerEvent: {}
+[3.628160] (-) TimerEvent: {}
+[3.728669] (-) TimerEvent: {}
+[3.829743] (-) TimerEvent: {}
+[3.930903] (-) TimerEvent: {}
+[4.031643] (-) TimerEvent: {}
+[4.132370] (-) TimerEvent: {}
+[4.233282] (-) TimerEvent: {}
+[4.334072] (-) TimerEvent: {}
+[4.435601] (-) TimerEvent: {}
+[4.536441] (-) TimerEvent: {}
+[4.637196] (-) TimerEvent: {}
+[4.738073] (-) TimerEvent: {}
+[4.838920] (-) TimerEvent: {}
+[4.846453] (mobile_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mobile_robot', 'build', '--build-base', '/home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/build', 'install', '--record', '/home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/baltazar/proyectos_ros/basic_control_ca_gz/src/mobile_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'baltazar', 'LC_TIME': 'es_AR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/baltazar', 'OLDPWD': '/home/baltazar/proyectos_ros/basic_control_ca_gz/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_AR.UTF-8', 'MANAGERPID': '250990', 'SYSTEMD_EXEC_PID': '251457', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '288054', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/baltazar/proyectos_ros/basic_control_ca_gz/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'baltazar', 'JOURNAL_STREAM': '8:2448961', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'baltazar', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/baltazar-Lenovo-ideapad-730S-13IWL:@/tmp/.ICE-unix/251248,unix/baltazar-Lenovo-ideapad-730S-13IWL:/tmp/.ICE-unix/251248', 'INVOCATION_ID': 'a3dffb2fb66840b791f086ecc4490186', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_AR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_AR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AWKO92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '69', 'AMENT_PREFIX_PATH': '/home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_AR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:648ee642-e334-4e59-80af-a76bcdde390d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LC_MEASUREMENT': 'es_AR.UTF-8', 'LC_IDENTIFICATION': 'es_AR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages:/home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'es_AR.UTF-8', 'LC_PAPER': 'es_AR.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.939105] (-) TimerEvent: {}
+[5.039843] (-) TimerEvent: {}
+[5.140489] (-) TimerEvent: {}
+[5.241377] (-) TimerEvent: {}
+[5.342175] (-) TimerEvent: {}
+[5.443016] (-) TimerEvent: {}
+[5.543724] (-) TimerEvent: {}
+[5.644444] (-) TimerEvent: {}
+[5.745247] (-) TimerEvent: {}
+[5.846073] (-) TimerEvent: {}
+[5.948121] (-) TimerEvent: {}
+[6.048909] (-) TimerEvent: {}
+[6.149850] (-) TimerEvent: {}
+[6.250859] (-) TimerEvent: {}
+[6.351694] (-) TimerEvent: {}
+[6.452498] (-) TimerEvent: {}
+[6.553416] (-) TimerEvent: {}
+[6.654321] (-) TimerEvent: {}
+[6.755259] (-) TimerEvent: {}
+[6.856150] (-) TimerEvent: {}
+[6.956999] (-) TimerEvent: {}
+[7.057747] (-) TimerEvent: {}
+[7.158476] (-) TimerEvent: {}
+[7.259296] (-) TimerEvent: {}
+[7.360234] (-) TimerEvent: {}
+[7.420789] (mobile_robot) StdoutLine: {'line': b'running egg_info\n'}
+[7.460444] (-) TimerEvent: {}
+[7.561445] (-) TimerEvent: {}
+[7.646828] (mobile_robot) StdoutLine: {'line': b'writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO\n'}
+[7.648043] (mobile_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt\n'}
+[7.649249] (mobile_robot) StdoutLine: {'line': b'writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt\n'}
+[7.651242] (mobile_robot) StdoutLine: {'line': b'writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt\n'}
+[7.652186] (mobile_robot) StdoutLine: {'line': b'writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt\n'}
+[7.661795] (-) TimerEvent: {}
+[7.762759] (-) TimerEvent: {}
+[7.863648] (-) TimerEvent: {}
+[7.964706] (-) TimerEvent: {}
+[8.065733] (-) TimerEvent: {}
+[8.153384] (mobile_robot) StdoutLine: {'line': b"reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'\n"}
+[8.159955] (mobile_robot) StdoutLine: {'line': b"writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'\n"}
+[8.161738] (mobile_robot) StdoutLine: {'line': b'running build\n'}
+[8.162646] (mobile_robot) StdoutLine: {'line': b'running build_py\n'}
+[8.163546] (mobile_robot) StdoutLine: {'line': b'running install\n'}
+[8.165985] (-) TimerEvent: {}
+[8.224674] (mobile_robot) StdoutLine: {'line': b'running install_lib\n'}
+[8.266215] (-) TimerEvent: {}
+[8.367041] (-) TimerEvent: {}
+[8.467954] (-) TimerEvent: {}
+[8.477184] (mobile_robot) StdoutLine: {'line': b'running install_data\n'}
+[8.479461] (mobile_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.568301] (-) TimerEvent: {}
+[8.670763] (-) TimerEvent: {}
+[8.741605] (mobile_robot) StdoutLine: {'line': b"removing '/home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[8.743267] (mobile_robot) StdoutLine: {'line': b'Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot-0.0.0-py3.12.egg-info\n'}
+[8.750686] (mobile_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[8.770991] (-) TimerEvent: {}
+[8.871919] (-) TimerEvent: {}
+[8.972785] (-) TimerEvent: {}
+[9.073614] (-) TimerEvent: {}
+[9.175240] (-) TimerEvent: {}
+[9.276139] (-) TimerEvent: {}
+[9.377065] (-) TimerEvent: {}
+[9.477810] (-) TimerEvent: {}
+[9.578750] (-) TimerEvent: {}
+[9.679749] (-) TimerEvent: {}
+[9.780647] (-) TimerEvent: {}
+[9.881429] (-) TimerEvent: {}
+[9.983238] (-) TimerEvent: {}
+[10.082298] (mobile_robot) StdoutLine: {'line': b'Installing publisher script to /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/mobile_robot\n'}
+[10.083280] (-) TimerEvent: {}
+[10.084154] (mobile_robot) StdoutLine: {'line': b"writing list of installed files to '/home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/install.log'\n"}
+[10.183520] (-) TimerEvent: {}
+[10.284468] (-) TimerEvent: {}
+[10.293631] (mobile_robot) CommandEnded: {'returncode': 0}
+[10.377048] (mobile_robot) JobEnded: {'identifier': 'mobile_robot', 'rc': 0}
+[10.379710] (-) EventReactorShutdown: {}

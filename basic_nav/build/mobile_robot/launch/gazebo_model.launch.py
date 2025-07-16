@@ -1,0 +1,1 @@
+/home/baltazar/proyectos_ros/basic_control_ca_gz/src/mobile_robot/launch/gazebo_model.launch.py

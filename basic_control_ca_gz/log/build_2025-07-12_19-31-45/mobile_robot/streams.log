@@ -1,0 +1,22 @@
+[3.855s] Invoking command in '/home/baltazar/proyectos_ros/basic_control_ca_gz/src/mobile_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/build install --record /home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/install.log --single-version-externally-managed install_data
+[4.762s] running egg_info
+[4.823s] writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO
+[4.884s] writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt
+[4.885s] writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt
+[4.886s] writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt
+[4.887s] writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt
+[5.065s] reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[5.129s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[5.130s] running build
+[5.130s] running build_py
+[5.136s] running install
+[5.166s] running install_lib
+[5.321s] running install_data
+[5.322s] copying worlds/tugbot_depot.sdf -> /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/share/mobile_robot/worlds
+[5.325s] running install_egg_info
+[5.420s] removing '/home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot-0.0.0-py3.12.egg-info' (and everything under it)
+[5.421s] Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages/mobile_robot-0.0.0-py3.12.egg-info
+[5.424s] running install_scripts
+[5.868s] Installing publisher script to /home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/mobile_robot
+[5.930s] writing list of installed files to '/home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/install.log'
+[6.052s] Invoked command in '/home/baltazar/proyectos_ros/basic_control_ca_gz/src/mobile_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/baltazar/proyectos_ros/basic_control_ca_gz/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/build install --record /home/baltazar/proyectos_ros/basic_control_ca_gz/build/mobile_robot/install.log --single-version-externally-managed install_data
